@@ -5,28 +5,30 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+    
+    int torre,bispo,rainha;
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
+    printf("\n========MOVIMENTACAO DA TORRE========\n");
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+    for (torre = 0; torre < 5; torre++){
+        printf("A Torre, moveu uma casa para Direita!\n");
+    }
+        printf("\n### A Torre Andou 5 Casas para Direita! ###\n");
 
-    // Nível Aventureiro - Movimentação do Cavalo
-    // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
-    // Um loop pode representar a movimentação horizontal e outro vertical.
+    printf("\n========MOVIMENTACAO DO BISPO========\n");
 
-    // Nível Mestre - Funções Recursivas e Loops Aninhados
-    // Sugestão: Substitua as movimentações das peças por funções recursivas.
-    // Exemplo: Crie uma função recursiva para o movimento do Bispo.
+    for (bispo = 0; bispo < 5; bispo++){
+        printf("Bispo andou uma casa para cima e depois uma casa para Direita!\n");
+    }
+        printf("\n### O Bispo Andou 5 Casas, Na diagonal para Direita! ###\n");
+ 
+    printf("\n========MOVIMENTACAO DA RAINHA========\n");
 
-    // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
-    // Inclua o uso de continue e break dentro dos loops.
+    for (rainha = 0; rainha < 8; rainha++){
+        printf("A Rainha, moveu uma casa para Esquerda!\n");
+    }
+        printf("\n### A Rainha Andou 8 casas para Esquerda! ###\n");
 
     return 0;
 }
