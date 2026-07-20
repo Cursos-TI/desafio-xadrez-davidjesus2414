@@ -12,8 +12,8 @@ int main() {
 
 
     for (torre = 0; torre < 5; torre++){
-        printf("A Torre, moveu uma casa para Direita!\n");
-    }
+            printf("A Torre, moveu uma casa para Direita!\n");
+        }
         printf("\n### A Torre Andou 5 Casas para Direita! ###\n");
 
     printf("\n========MOVIMENTACAO DO BISPO========\n");
