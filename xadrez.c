@@ -7,6 +7,7 @@
 int main() {
     
     int torre,bispo,rainha;
+    int cavalo = 1;
 
     printf("\n========MOVIMENTACAO DA TORRE========\n");
 
@@ -29,6 +30,18 @@ int main() {
         printf("A Rainha, moveu uma casa para Esquerda!\n");
     }
         printf("\n### A Rainha Andou 8 casas para Esquerda! ###\n");
+
+    printf("\n========MOVIMENTACAO DO CAVALO========\n");
+
+    while (cavalo--){
+
+        for(int i = 0; i < 2; i++){
+            printf("O Cavalo andou para Cima\n");
+        }
+        printf("Cavalo andou para direita\n");
+
+    printf("\n### O Cavalo Andou 2 casas para cima e 1 para direita formando um L! ###\n");
+    }
 
     return 0;
 }
