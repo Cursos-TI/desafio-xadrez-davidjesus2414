@@ -22,7 +22,7 @@ int main() {
     for (bispo = 0; bispo < 5; bispo++){
         printf("Bispo andou uma casa para cima e depois uma casa para Direita!\n");
     }
-        printf("\n### O Bispo Andou 5 Casas, Na diagonal para Direita! ###\n");
+        printf("\n### O Bispo Andou 5 Casas, Na diagonal para Direita (Cima)! ###\n");
  
     printf("\n========MOVIMENTACAO DA RAINHA========\n");
 
@@ -40,7 +40,7 @@ int main() {
         }
         printf("Cavalo andou para direita\n");
 
-    printf("\n### O Cavalo Andou 2 casas para cima e 1 para direita formando um L! ###\n");
+    printf("\n### O Cavalo Andou 2 casas para cima e 1 para direita formando um L (Cima)! ###\n");
     }
 
     return 0;
